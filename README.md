@@ -10,7 +10,11 @@ Download the appropriate chip file (i.e. Human_Ensembl_Gene_ID_MSigDB.v20XX.X.Hs
 
 It is good to familiarize yourself with the GSEA wiki page on how to run RNASeq (https://software.broadinstitute.org/cancer/software/gsea/wiki/index.php/Using_RNA-seq_Datasets_with_GSEA).
 
-### GEO2R example - RNAseq data
+### To install, run
+ 
+    devtools::install_github("AplinLabBioinformatics/runGSEA")
+  
+### GEO2R example 1 - RNAseq data
 For the GEO2R_example1.Rmd file, you will need to change the paths (i.e. "C:/GSEA_R_Demo/"). 
 
 The GEO2R_example1.Rmd has GEO2R code for GSE181194 (RNAseq dataset). 
